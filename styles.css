@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos del header */
+header {
+    background-image: url('Image/Portada.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.2em;
+}
+
+/* Estilos de navegación */
+nav {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Estilos de las secciones */
+main {
+    padding: 20px;
+}
+
+.destination {
+    margin: 40px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-content {
+    width: 50%;
+}
+
+.text-content p {
+    font-size: 1.2em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
